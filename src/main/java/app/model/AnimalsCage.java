@@ -14,6 +14,11 @@ public class AnimalsCage {
     @Autowired
     private Timer timer;
 
+    public Timer getTimer() {
+        return timer;
+    }
+
+
     public void whatAnimalSay() {
         System.out.println("Say:");
         System.out.println(animal.toString());
